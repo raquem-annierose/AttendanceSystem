@@ -37,10 +37,10 @@ public class TeacherDashboardCenterPanel {
         // Load Teacher Effects image
         String teacherEffectsPath = TeacherDashboardCenterPanel.class.getResource("/resources/Teacher_Dashboard/Teacher_effects.png").toExternalForm();
         ImageView teacherEffectsView = new ImageView(new Image(teacherEffectsPath));
-        teacherEffectsView.setFitWidth(490);  // Set the width
-        teacherEffectsView.setFitHeight(275); // Set the height
-        teacherEffectsView.setLayoutX(530);   // X position
-        teacherEffectsView.setLayoutY(-5);     // Y position
+        teacherEffectsView.setFitWidth(489);  // Set the width
+        teacherEffectsView.setFitHeight(311); // Set the height
+        teacherEffectsView.setLayoutX(533);   // X position
+        teacherEffectsView.setLayoutY(-13);     // Y position
 
       
 

@@ -92,10 +92,10 @@ public class TeacherDashboardPage extends Application {
         // User Icon
         String userIconPath = getClass().getResource("/resources/Admin_Dashboard/Admin_user_icon.png").toExternalForm();
         ImageView userIcon = new ImageView(new Image(userIconPath));
-        userIcon.setFitWidth(90);
-        userIcon.setFitHeight(90);
+        userIcon.setFitWidth(75);
+        userIcon.setFitHeight(75);
         userIcon.setLayoutX(1200);
-        userIcon.setLayoutY(5);
+        userIcon.setLayoutY(19);
         userIcon.setCursor(Cursor.HAND);
         
      // --- User Icon Popup Handling (keep your event here) ---
@@ -226,10 +226,10 @@ public class TeacherDashboardPage extends Application {
         // Dashboard icon
         String dashboardIconPath = getClass().getResource("/resources/Dashboard_icon.png").toExternalForm();
         ImageView dashboardIcon = new ImageView(new Image(dashboardIconPath));
-        dashboardIcon.setFitWidth(55);
-        dashboardIcon.setFitHeight(55);
-        dashboardIcon.setLayoutX(22);
-        dashboardIcon.setLayoutY(20);
+        dashboardIcon.setFitWidth(40);
+        dashboardIcon.setFitHeight(40);
+        dashboardIcon.setLayoutX(21);
+        dashboardIcon.setLayoutY(25);
       
         // Dashboard text
         Text dashboardText = new Text("Dashboard");
@@ -275,10 +275,10 @@ public class TeacherDashboardPage extends Application {
      // Calendar Icon
         String calendarIconPath = getClass().getResource("/resources/Teacher_Dashboard/Teacher_calendar_icon.png").toExternalForm();
         ImageView calendarIcon = new ImageView(new Image(calendarIconPath));
-        calendarIcon.setFitWidth(51); // Set width for the calendar icon
-        calendarIcon.setFitHeight(51); // Set height for the calendar icon
-        calendarIcon.setLayoutX(26); // x position
-        calendarIcon.setLayoutY(130); // y position (adjust as needed)
+        calendarIcon.setFitWidth(40); // Set width for the calendar icon
+        calendarIcon.setFitHeight(40); // Set height for the calendar icon
+        calendarIcon.setLayoutX(21); // x position
+        calendarIcon.setLayoutY(133); // y position (adjust as needed)
 
        
      // Mark Attendance Text
@@ -321,10 +321,10 @@ public class TeacherDashboardPage extends Application {
      // View Class List icon image
         String viewAllPath = getClass().getResource("/resources/Teacher_Dashboard/Teacher_view_all_icon.png").toExternalForm();
         ImageView viewAllIcon = new ImageView(new Image(viewAllPath));
-        viewAllIcon.setFitWidth(69);
-        viewAllIcon.setFitHeight(69);
-        viewAllIcon.setLayoutX(17); // x position
-        viewAllIcon.setLayoutY(250); // y position
+        viewAllIcon.setFitWidth(47);
+        viewAllIcon.setFitHeight(47);
+        viewAllIcon.setLayoutX(21); // x position
+        viewAllIcon.setLayoutY(253); // y position
 
      // View Class List Text
         Text viewClassListText = new Text("View Class List");
@@ -359,10 +359,10 @@ public class TeacherDashboardPage extends Application {
      // Add Course icon image
         String addCourseIconPath = getClass().getResource("/resources/Teacher_Dashboard/Teacher_add_course_icon.png").toExternalForm();
         ImageView addCourseIcon = new ImageView(new Image(addCourseIconPath));
-        addCourseIcon.setFitWidth(56); // Set width
-        addCourseIcon.setFitHeight(56); // Set height
-        addCourseIcon.setLayoutX(25); // x position (adjust if needed)
-        addCourseIcon.setLayoutY(340); // y position (adjust if needed)
+        addCourseIcon.setFitWidth(40); // Set width
+        addCourseIcon.setFitHeight(40); // Set height
+        addCourseIcon.setLayoutX(21); // x position (adjust if needed)
+        addCourseIcon.setLayoutY(341); // y position (adjust if needed)
 
         
      // Create "Add Course" Text
@@ -405,10 +405,10 @@ public class TeacherDashboardPage extends Application {
      // Attendance icon image
         String attendanceIconPath = getClass().getResource("/resources/Teacher_Dashboard/Teacher_summary_icon.png").toExternalForm();
         ImageView attendanceIcon = new ImageView(new Image(attendanceIconPath));
-        attendanceIcon.setFitWidth(53);   // width
-        attendanceIcon.setFitHeight(53);  // height
-        attendanceIcon.setLayoutX(26);    // x position
-        attendanceIcon.setLayoutY(455);   // y position
+        attendanceIcon.setFitWidth(40);   // width
+        attendanceIcon.setFitHeight(40);  // height
+        attendanceIcon.setLayoutX(21);    // x position
+        attendanceIcon.setLayoutY(458);   // y position
 
      // Add "Attendance Summary" text
         Text attendanceSummaryText = new Text("Attendance Summary");
@@ -442,9 +442,9 @@ public class TeacherDashboardPage extends Application {
      // Individual Reports icon image
         String individualReportsIconPath = getClass().getResource("/resources/Teacher_Dashboard/Teacher_report_icon.png").toExternalForm();
         ImageView individualReportsIcon = new ImageView(new Image(individualReportsIconPath));
-        individualReportsIcon.setFitWidth(53);   // width
-        individualReportsIcon.setFitHeight(53);  // height
-        individualReportsIcon.setLayoutX(26);    // x position
+        individualReportsIcon.setFitWidth(40);   // width
+        individualReportsIcon.setFitHeight(40);  // height
+        individualReportsIcon.setLayoutX(21);    // x position
         individualReportsIcon.setLayoutY(540);   // y position
         
      // Add "Individual Reports" text
